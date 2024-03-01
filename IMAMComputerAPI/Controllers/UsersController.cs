@@ -15,7 +15,7 @@ namespace IMAMComputerAPI.Controllers
         private readonly Context _dbContext;
         public UsersController(Context dbContext)
         {
-            _dbContext = dbContext;
+            _dbContext = dbContext;  
         }
 
         [HttpGet("GetAllUsersAsync")]
